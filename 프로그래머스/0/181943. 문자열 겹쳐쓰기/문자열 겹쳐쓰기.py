@@ -1,4 +1,3 @@
-def solution(my_string, overwrite_string, s):
-    answer = my_string[:s] + overwrite_string + my_string[
-             s + len(overwrite_string):]
+def solution(m, o, s):
+    answer = m[:s] + o + m[s + len(o):]
     return answer
